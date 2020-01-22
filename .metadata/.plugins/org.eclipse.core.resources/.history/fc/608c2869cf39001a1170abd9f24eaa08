@@ -1,0 +1,14 @@
+
+public class PrintNumberInWord {
+
+	
+	public static void main(String[] args) {
+		int num = 1;
+		
+		if(num = 1){
+ System.out.println("ONE");
+		}else if(num = 2){
+			System.out.println("TWO");
+	}
+
+}

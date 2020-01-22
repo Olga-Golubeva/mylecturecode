@@ -1,0 +1,25 @@
+
+public class ArraysPrimitiveDataType {
+
+
+	public static void main(String[] args) {
+		
+		int[] arrays; //Declare array with type int
+		
+//		int arrays2[]; // tas pats ka augstak, bet tā mēs tā nerakstīsim	
+		 
+		arrays = new int[2];
+		
+		int[] arr = new int [10];
+		
+		int[] arrTest = new int[2];
+		
+		arrTest[0] = 10;
+		arrTest[1] = 3;
+		
+		
+		System.out.println(arrTest[0] + " " + arrTest[1]);
+
+	}
+
+}
