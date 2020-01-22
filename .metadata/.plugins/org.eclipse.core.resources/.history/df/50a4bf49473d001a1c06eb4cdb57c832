@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+
+public class ScannerCalculator {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+	
+		Scanner sc = new Scanner(System.in);
+		
+		int num1 = 55;
+		System.out.println("Enter num1:");
+		sc.nextLine();
+		int num2 = 60;
+		System.out.println("Enter num2:");
+		sc.nextLine();
+		char add = '+';
+		sc.nextLine();
+		
+		int result = num1+num2;
+		
+		System.out.println("Enter num1:");
+		
+	
+
+	}
+
+}
