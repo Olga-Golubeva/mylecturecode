@@ -1,0 +1,28 @@
+package lv.olga;
+
+public class LearnMethods {
+
+	/**
+	 * @param args
+	 */
+	//void not return type
+	//modifiers - public, private, protected
+	
+	public static void main(String[] args) {
+		
+		getMyName();
+		ge
+
+	}
+	public static void getMyName (){
+		System.out.println("My name is Olga");
+		
+	}
+	
+	public static void getMyCity (){
+		
+	}
+	public static void getIHaveCat (){
+		
+	}
+}

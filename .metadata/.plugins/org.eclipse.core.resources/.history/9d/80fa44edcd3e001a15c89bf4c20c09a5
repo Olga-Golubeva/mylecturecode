@@ -1,0 +1,24 @@
+package lv.olga;
+
+public class LearnMethodsWithType {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		getArea();
+		System.out.println(getArea());
+	
+	}
+	// method return type double
+	// a*b =result
+	
+	public static double getArea(){
+		
+		return 10.0 * 20.3;
+		
+		
+	}
+	
+
+}
