@@ -15,24 +15,36 @@ public class ScannerAndArrays {
 		//Create methods for printing out arrays values
 		//for loop
 		
-		Scanner sc = new Scanner(System.in);
-		
 		System.out.println("Enter array length");
 		
-		int[] arr = new int[];
+		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Enter first array value");
+		int[] arr = new int[sc.nextInt()];
 		
-		arr[0] = sc.nextInt();
+		for(int i = 0; i < arr.length; i++){
+			System.out.println("Enter array value");
+			
+			arr[i] +=sc.nextInt();
+		}
 		
-		System.out.println("Enter second array value");
+//		if (i == arr.length) {
 		
-		arr[1] = sc.nextInt();
-		
-		
-		
-		System.out.println(arr[0] + ", " +arr[1]);
+		System.out.println("Inserted array elements: ");
+		for (int i = 0; i <= arr.length; i++){
 
+				System.out.println(arr[i]);
+
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
-}
