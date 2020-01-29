@@ -1,0 +1,5 @@
+package lv.olga.users;
+
+public class Student {
+
+}
