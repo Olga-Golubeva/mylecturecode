@@ -1,0 +1,16 @@
+package lv.olga;
+
+public class TestArraysandLists {
+
+	
+	public static void main(String[] args) {
+		
+		String[] arr = new String[10];
+		
+		for(int i =0; i<arr.length; i++){
+			System.out.println(arr[i]);
+		}
+
+	}
+
+}

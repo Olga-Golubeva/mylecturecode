@@ -24,11 +24,20 @@ public class Student extends Person{
 	}
 	
 	public void printGrades(){
-		
+		System.out.println();
+		for(int i = 0; i<numCourse; ++i){
+			System.out.println(" " + courses[i] + ": " + grades[i]);
+		}
+		System.out.println();
 	}
 	
 	public double getAverageGrade(){
-		return 0.0;
+		int sum = 0;
+		for(int i = 0; i< numCourse; i++){
+			sum = sum + grades[i];
+			}
+		
+		return (double)sum/numCourse;
 	}
 	public String toString(){
 		return "Student: " + super.toString();

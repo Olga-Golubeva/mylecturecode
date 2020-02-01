@@ -23,12 +23,38 @@ public class Teacher extends Person{
 	}
 	
 	public boolean addCourses(String course){
+		for(int i = 0; i<numCourse; i++){
+			if(courses[i].equals(course)){
+				return false;
+			}
+		}
+		courses[numCourse] = course;
+		numCourse++;
 		return true;
 		
 	}
 	
 	public boolean removeCourses(String course){
-		return true;
+		boolean found = false;
+		int courseIndex = -1;
+		for(int i = 0; i< numCourse; i++){
+			if(courses[i].equals(course)){
+				courseIndex = i;
+				found = true;
+				break;
+		}
+		}
+			if(found){
+				for(int i = courseIndex; i<numCourse -1; i++){
+					courses[i] = courses[i+1];
+				}
+				numCourse--;
+				return true;
+			}else{
+				return false;
+				
+			}
+		
 	}
 	
 	public String toString(){
