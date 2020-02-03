@@ -1,0 +1,31 @@
+package lv.olga;
+
+import java.util.Scanner;
+
+public class TestScannerInputArray {
+
+	
+	public static void main(String[] args) {
+		
+		String[] strArr = new String[3];
+		
+		Scanner sc = new Scanner(System.in);
+		
+		for(int i =0; i<strArr.length; i++){
+		
+		System.out.println("Input the name");
+		
+		strArr[i] = sc.nextLine();
+		
+	
+		
+	}
+		String x = sc.nextLine();
+
+		for(int i =0; i<strArr.length; i++){
+			if(x.equals("Print")){
+		
+		System.out.println(strArr[i]);
+	}
+	}
+}
