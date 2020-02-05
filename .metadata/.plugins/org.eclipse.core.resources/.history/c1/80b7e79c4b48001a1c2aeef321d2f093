@@ -1,0 +1,31 @@
+package lv.olga.test;
+
+import java.util.ArrayList;
+
+import lv.olga.module.League;
+import lv.olga.module.Team;
+
+public class TestTeamAndLeague {
+
+	
+	
+	public static void main(String[] args) {
+		
+//		ArrayList<Team> arr = new ArrayList<>();
+		
+		
+//		Team ska = new Team("SKA");
+		Team cska = new Team("CSKA");
+//		arr.add(ska);
+		
+		
+		League khl = new League("KHL");
+		khl.nameOfTeam.add(cska);
+//		khl.setNameOfTeams(arr);
+		
+		System.out.println(khl.toString());
+		
+		
+	}
+
+}
