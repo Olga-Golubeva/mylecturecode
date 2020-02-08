@@ -1,0 +1,21 @@
+package lv.olga.inputoutput;
+
+import java.io.File;
+
+
+
+public class TestFile {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		File myFile = new File("Data.txt");
+		if(myFile.exists()){
+			System.out.println(myFile.getName() + "exist");
+		}
+
+	}
+
+}

@@ -1,0 +1,35 @@
+package lv.olga.inputoutput;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.util.Scanner;
+
+public class TestEmailText {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) throws Exception {
+		
+		
+		
+//		String defaultStr = "Hello user userName";
+//		String newStr = defaultStr.replace("userName", "");
+//		
+//		String [] names = {"Olga", "Toms", "Nika", "Raimonds"};
+//		
+//		FileWriter fw = new FileWriter(file, true);
+//		
+//		System.out.println(newStr + names[2]);
+		
+		File file = new File("defaultString.txt");
+		
+		Scanner sc = new Scanner(file);
+		
+		while(sc.hasNextLine()){
+			System.out.println(sc.nextLine());
+		
+	}
+
+}
+}

@@ -1,0 +1,25 @@
+package lv.olga.inputoutput;
+
+import java.io.File;
+
+public class TestEmailText {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		File file = new File("defaultString.txt");
+		
+		String defaultStr = "Hello user userName";
+		String newStr = defaultStr.replace("userName", "");
+		
+		String [] names = {"Olga", "Toms", "Nika", "Raimonds"};
+		
+		
+		System.out.println(newStr + names[0]);
+			
+
+	}
+
+}

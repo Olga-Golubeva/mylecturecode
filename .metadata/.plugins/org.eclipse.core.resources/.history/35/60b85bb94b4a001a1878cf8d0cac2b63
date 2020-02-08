@@ -1,0 +1,22 @@
+package lv.olga;
+
+import java.util.ArrayList;
+
+public class TestTwoArrays {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		int[] arr1 = {2, 3, 5, 6, 8, 9, 35, 69};
+		int[] arr2 = {2, 7, 6};
+		
+		ArrayList<Integer> arrList = new ArrayList<>();
+		
+		
+
+	}
+
+}
+ 

@@ -1,9 +1,0 @@
-package lv.olga.users;
-
-public class Teacher extends Person{
-	super(name, address);
-	private int numCourse;
-	private String[] courses; 
-	
-
-}

@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="lv.olga.player.FootballPlayer"/>
 <fullyQualifiedTypeName name="lv.olga.geometricfigures.Circle"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="lv.olga.bookstore.Author"/>
 <fullyQualifiedTypeName name="lv.olga.bookstore.Book"/>
 <fullyQualifiedTypeName name="lv.olga.figure.Rectangle"/>
@@ -10,7 +9,6 @@
 <fullyQualifiedTypeName name="lv.olga.graph.Point3D"/>
 <fullyQualifiedTypeName name="lv.olga.graph.Point4D"/>
 <fullyQualifiedTypeName name="lv.olga.users.Teacher"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="lv.olga.encapsulation.Student"/>
 <fullyQualifiedTypeName name="lv.olga.inheritance.Golf"/>
 <fullyQualifiedTypeName name="lv.olga.polymorphism.Animal"/>
@@ -19,6 +17,23 @@
 <fullyQualifiedTypeName name="lv.olga.testinterface.Rectangle"/>
 <fullyQualifiedTypeName name="lv.olga.testinterface.Shape"/>
 <fullyQualifiedTypeName name="lv.olga.testinterface.Triangle"/>
+<fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+<fullyQualifiedTypeName name="java.util.regex.Matcher"/>
+<fullyQualifiedTypeName name="java.time.LocalDateTime"/>
+<fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
+<fullyQualifiedTypeName name="lv.olga.module.League"/>
+<fullyQualifiedTypeName name="lv.olga.module.Team"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.io.OutputStream"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.io.File"/>
 </qualifiedTypeNameHistroy>
