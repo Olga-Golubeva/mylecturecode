@@ -1,10 +1,10 @@
 package lv.olga.module;
 
 public class Team {
-	private String name;
-	private int wins;
-	private int losses;
-	private int ties;
+	public String name;
+	public int wins;
+	public int losses;
+	public int ties;
 	
 	public Team(String nameOfTeam){
 
@@ -16,8 +16,15 @@ public class Team {
 	
 	public int gamesPlayed(){
 		return  this.wins + this.losses+ this.ties;
+	}
+	
+	public int totalPoints(){
+			return this.wins*2 + this.ties;
 		
 	}
+	
+	
+	
 
 	public String getName() {
 		return name;
@@ -53,9 +60,10 @@ public class Team {
 
 	@Override
 	public String toString() {
-		return "Team [name=" + name + ", wins=" + wins + ", losses=" + losses
+		return "\n Team [name=" + name + ", wins=" + wins + ", losses=" + losses
 				+ ", ties=" + ties + "]";
 	}
+	
 	
 	
 	

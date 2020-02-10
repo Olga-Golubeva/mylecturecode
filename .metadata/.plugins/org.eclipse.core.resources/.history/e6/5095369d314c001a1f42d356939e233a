@@ -1,0 +1,53 @@
+package lv.olga.test;
+
+import java.util.ArrayList;
+
+import lv.olga.module.League;
+import lv.olga.module.Team;
+
+public class TestTeamAndLeague {
+
+	
+	
+	public static void main(String[] args) {
+		
+		ArrayList<Team> khlTeam = new ArrayList<>();
+		
+		
+		Team ska = new Team("SKA");
+		Team cska = new Team("CSKA");
+		Team dinamo = new Team("DINAMO");
+		Team spartak = new Team("SPARTAK");
+		Team torpedo = new Team("TORPEDO");
+		Team jokerit = new Team("JOKERIT");
+		
+		System.out.println("Team total point: " + ska.totalPoints());
+		khlTeam.add(ska);
+		khlTeam.add(cska);
+		khlTeam.add(dinamo);
+		khlTeam.add(spartak);
+		
+	
+		
+		League khl = new League("KHL");
+//		khl.nameOfTeam.add(cska);
+		khl.setNameOfTeam(khlTeam);
+		
+		
+		khl.recordWinAndLoss(cska, dinamo);
+		khl.recordWinAndLoss(cska, ska);
+		khl.recordWinAndLoss(ska, dinamo);
+		khl.recordTies(cska, ska);
+		khl.recordTies(cska, dinamo);
+		khl.recordWinAndLoss(spartak, jokerit);
+		
+		System.out.println("Team total point: " + cska.totalPoints());
+		System.out.println(khl.toString());
+		
+		
+		
+		
+		
+	}
+
+}
