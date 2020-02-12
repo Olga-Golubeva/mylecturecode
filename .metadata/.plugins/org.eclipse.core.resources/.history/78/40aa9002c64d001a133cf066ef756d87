@@ -1,0 +1,9 @@
+package lv.olga.repeatJavaClassOOP;
+
+public interface InterfaceClass {
+	
+	void sendEmail();
+	void sendEmailCount();
+	
+
+}

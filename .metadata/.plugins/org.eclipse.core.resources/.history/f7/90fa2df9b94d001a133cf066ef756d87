@@ -1,0 +1,18 @@
+package lv.olga;
+
+import lv.olga.repeatJavaClassOOP.MyClass;
+
+public class TestOOP {
+
+	
+	public static void main(String[] args) {
+		MyClass newObj = new MyClass();
+
+	
+		MyClass newObj2 = new MyClass();
+		
+		System.out.println(newObj.equals(newObj2));
+		
+	}
+
+}

@@ -1,0 +1,42 @@
+package lv.olga;
+
+import lv.olga.repeatJavaClassOOP.MyClass;
+import lv.olga.repeatJavaClassOOP.MyClassConstructor;
+import lv.olga.repeatJavaClassOOP.MyClassMethods;
+
+public class TestOOP {
+
+	
+	public static void main(String[] args) {
+		MyClass newObj = new MyClass();
+
+	
+		MyClass newObj2 = new MyClass();
+		String strObj = "hello";
+		String strObj2 = "hello";
+		
+		System.out.println(newObj.equals(newObj2));
+		System.out.println(strObj.equals(strObj2));
+		System.out.println(strObj==strObj2);
+		
+		System.out.println(newObj.x);
+		
+//		MyClassMethods myObjMethod = new MyClassMethods();
+//		myObjMethod.myMethod();
+//		System.out.println(myObjMethod.myStringMethod());
+		MyClassMethods myObjMethod = new MyClassMethods();
+		double numDouble = 0;
+		numDouble = myObjMethod.returnDouble();
+		System.out.println(numDouble);
+		
+		System.out.println(myObjMethod.returnChar(1005195870, 2075670799));
+		
+		MyClassConstructor myConsObj = new MyClassConstructor(1985L, "Ford");
+		MyClassConstructor myConsObj2 = new MyClassConstructor(1989L, "Ford");
+		MyClassConstructor myConsObj3 = new MyClassConstructor(2001L, "Opel");
+		System.out.println(myConsObj.getModelName().equals(myConsObj2.getModelName()));
+		System.out.println(myConsObj3.getModelYear());
+		
+	}
+
+}
